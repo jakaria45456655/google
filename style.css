@@ -1,0 +1,179 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: monospace;
+}
+#ul {
+  /* background-color: gray; */
+  display: flex;
+  align-items: center;
+  justify-content: end;
+  color: rgb(78, 62, 62);
+}
+header{
+  width: 100%;
+  /* background-color: red; */
+}
+.container{
+  width: 80%;
+  margin: auto;
+}
+img {
+  width: 30px;
+}
+.main_ul_li{
+  margin-right: 50px;
+}
+
+li {
+  list-style: none;
+  padding: 5px;
+  display: inline-block;
+}
+#img2 {
+  width: 30px;
+  height: 25px;
+  border-radius: 50%;
+  cursor: pointer;
+}
+#img1 {
+  width: 25px;
+  height: 19px;
+  cursor: pointer;
+}
+li,
+a {
+  text-decoration: none;
+}
+li a:hover {
+  color: rgb(236, 230, 230);
+  text-decoration: underline;
+}
+
+/* style the section area */
+
+section {
+  margin: 70px auto;
+  /* border: 1px solid red; */
+  width: 50%;
+  /* margin-left: 635px; */
+}
+
+h1 {
+  font-size: 60px;
+  color: rgb(41, 132, 82);
+  text-align: center;
+}
+#div {
+  position: relative;
+}
+/* #search{
+    position: absolute;
+    margin-left: 100px;
+    align-items: center;
+    margin-top: 12px;
+    margin-right: 12px;
+    color: cadetblue;
+} */
+#input {
+  /* margin: 12px auto; */
+  margin-left: 90px;
+  width: 70%;
+  padding: 10px;
+  /* border: none; */
+  border-radius: 5px;
+  border: none;
+}
+
+/* #miec{
+    margin-right: -40px;
+    color: brown;
+}
+.fa-microphone{
+    color: brown;
+    margin-left: -30px;
+} */
+#input {
+  background-color: rgb(237, 239, 237);
+  box-sizing: border-box;
+  border-radius: 20px;
+  width: 500px;
+  margin: auto;
+  margin-top: 60px;
+  padding-left: 50px;
+}
+#input:focus{
+  border: none;
+}
+#search {
+  position: absolute;
+  margin-left: 20px;
+  margin-top: 70px;
+}
+#input:hover {
+  cursor: pointer;
+}
+i {
+  color: rgb(9, 1, 21);
+}
+#mic_iocn{
+  position: absolute;
+  margin-left: -50px;
+  margin-top: 70px;
+}
+#camera_icon{
+  position: absolute;
+  margin-left: -30px;
+  margin-top: 70px;
+}
+
+#main {
+  width: 70%;
+  margin:auto;
+  padding: 12px;
+  margin-top: 0px;
+}
+#div1 {
+  padding: 20px;
+  cursor: pointer;
+  text-align: center;
+}
+#div2 {
+  padding: 20px;
+  text-align: center;
+  cursor: pointer;
+}
+.div2 {
+  margin: 12px auto;
+  display: flex;
+  flex-wrap: wrap;
+}
+#div1:hover {
+  background-color: rgb(87, 190, 192);
+  color: white;
+  border-radius: 7px;
+  transition: 1s linear all;
+}
+#div2:hover {
+  background-color: rgb(87, 190, 192);
+  color: white;
+  border-radius: 7px;
+  transition: 1s linear all;
+}
+footer{
+  background-color: navy;
+  color: white;
+  padding: 10px;
+  text-align: center;
+  margin-top:62px;
+}
+#plus__icon{
+  color:black;
+  background-color: red;
+  padding: 10px;
+  color: white;
+}
+#plus__icon:hover{
+  border-radius: 5px;
+}
